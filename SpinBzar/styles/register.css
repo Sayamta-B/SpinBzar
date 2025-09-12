@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #E2EDE3;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+  }
+  
+  .login1 {
+    width: 100%;
+    max-width: 480px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 12px;
+    padding: 40px 28px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login1 h1 {
+    margin-bottom: 28px;
+    color: #384339;
+    font-size: 26px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login1 input,
+  .login1 select,
+  .login1 textarea {
+    padding: 12px 16px;
+    border: 1px solid #8DB260;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #384339;
+    background-color: #fff;
+    transition: border-color 0.3s;
+  }
+  
+  .login1 input:focus,
+  .login1 select:focus,
+  .login1 textarea:focus
+   {
+    outline: none;
+    border-color: #A4C17A;
+  }
+  
+  .login1 .fod {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 12px 20px;
+    background-color: #8DB260;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .login1 .fod:hover {
+    background-color: #A4C17A;
+  }
+  
+.resetfod{
+  padding: 12px 20px;
+    color: #384339;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.link-buttons {
+  margin-top: 12px;
+}
+
+.link-btn {
+  font-size: 14px;
+  color: #8DB260;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.link-btn:hover {
+  color: #A4C17A;
+  text-decoration: underline;
+}
