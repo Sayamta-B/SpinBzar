@@ -19,3 +19,17 @@ In the eSewa integration, the payment request must include a signature to verify
 
 # For Khalti
 In Khalti’s redirect flow, you don’t generate a signature yourself. Instead, you just send the required parameters such as public_key, product_identity, product_name, amount, and return_url. The user is redirected to Khalti’s page, where they log in and approve the payment. After completion, Khalti sends the user back to your return_url with a pidx (payment index). At that point, you must make a server-to-server verification call to Khalti’s API using your secret key. If Khalti confirms the transaction is Completed, then you can safely grant the service (like issuing a ticket).
+
+
+# Installation/ Cloning directory
+If you are using xampp, 
+- Go to the htdocs of xampp in **command prompt** with ```cd C:/xampp/htdocs```
+- Write following command to clone the respository
+```
+git clone https://github.com/Sayamta-B/SpinBzar.git
+```
+- Start the xampp server and go to the link in the browser: https://localhost/SpinBzar
+- Click on **sql** folder
+- Click on **createDatabase.php** to create database 'SpinBzar'
+- Go back and click on **createTable.php** to create tables
+- To use the website, Link/ Url on browser is http://localhost/SpinBzar/program/landing_page.php
